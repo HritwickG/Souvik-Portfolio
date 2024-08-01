@@ -2,28 +2,8 @@
 
 export const sliderData = [
   {
-    image: "https://i.ibb.co/HKc7dGr/44.jpg",  //imgbb accoun for image hossting
-    heading: "Photographer",
-    desc: "Capturing timeless moments with creativity and passion.",
+    image: "https://i.ibb.co/myxVQMF/45.jpg" ,
+    //  heading: "Photographer",
+    desc: "I am a passionate freelance photographer based in Kolkata. Capturing the beauty and essence of every moment is my specialty. Browse through some of my previous works to get a glimpse of my style and creativity. If my work resonates with you, don't hesitate to book me for your upcoming project. Let's create stunning memories together! ",
   },
-  // {
-  //   image: "https://i.ibb.co/Bz5v6xs/gadget.jpg",
-  //   heading: "Hot Gadgets",
-  //   desc: "Up to 60% off on all onsale proucts.",
-  // },
-  // {
-  //   image: "https://i.ibb.co/RThT5KJ/men-wear.jpg",
-  //   heading: "Men Fashion",
-  //   desc: "Up to 60% off on all onsale proucts.",
-  // },
-  // {
-  //   image: "https://i.ibb.co/ZVQHTjk/phone.jpg",
-  //   heading: "Android Phones",
-  //   desc: "Up to 60% off on all onsale proucts.",
-  // },
-  // {
-  //   image: "https://i.ibb.co/tYcmTKr/blue-shoe.jpg",
-  //   heading: "Sport Sneakers",
-  //   desc: "Up to 60% off on all onsale proucts.",
-  // },
 ];
