@@ -5,6 +5,7 @@ import { useNavigate } from "react-router-dom";
 import "./Slider.scss";
 
 const Slider = () => {
+  
   const navigate = useNavigate();
   const [currentSlide, setCurrentSlide] = useState(0);
 
@@ -36,8 +37,6 @@ const Slider = () => {
 
   return (
     <div className="slider">
-      <AiOutlineArrowLeft className="arrow prev" onClick={prevSlide} />
-      <AiOutlineArrowRight className="arrow next" onClick={nextSlide} />
       {sliderData.map((slide, index) => {
         const { image, heading, desc } = slide;
 
@@ -57,12 +56,15 @@ const Slider = () => {
                   <h2>{heading}</h2>
                   <p>{desc}</p>
                   <hr />
-                  <button className="--btn --btn-primary" onClick={() => navigate("/")}>
-                                        Book Now
-                                    </button>
-                 
+                  <a
+            href="https://wa.me/<917044910991>?text=I%20am%20interested%20in%20your%20photography%20services."
+            className="btn btn-dark"
+            target="_blank"
+             rel="noopener noreferrer"
+          >
+            Book Now
+          </a>
                 </div>
-                
               </>
             )}
           </div>
