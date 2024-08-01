@@ -75,14 +75,14 @@ const Home = ()=>{
             <section>
                 <div className="container">
                     <HomeInfoBox/>
-                    <PageHeading  heading={"Pre-Wedding 0.1"} btnText={"Book Now>>>"}/>
+                    <PageHeading  heading={"Pre-Wedding 0.1"} />
                     <ProductCarousel products={productss2}/>
                 </div>
             </section>
             <section>
                 <div className="container">
                     
-                    <PageHeading  heading={"Pre-Wedding 0.2"} btnText={"Book Now>>>"}/>
+                    <PageHeading  heading={"Pre-Wedding 0.2"} />
                     <ProductCarousel products={productss3}/>
                 </div>
             </section>
@@ -95,21 +95,21 @@ const Home = ()=>{
             <section>
                 <div className="container">
                     
-                    <PageHeading  heading={"Bridal Potrait 0.1"} btnText={"Book Now>>>"}/>
+                    <PageHeading  heading={"Bridal Potrait 0.1"} />
                     <ProductCarousel products={productss4}/>
                 </div>
             </section>
             <section>
                 <div className="container">
                     
-                    <PageHeading  heading={"Bridal Potrait 0.2"} btnText={"Book Now>>>"}/>
+                    <PageHeading  heading={"Bridal Potrait 0.2"} />
                     <ProductCarousel products={productss5}/>
                 </div>
             </section>
             <section>
                 <div className="container">
                     
-                    <PageHeading  heading={"Couple Shoot"} btnText={"Book Now>>>"}/>
+                    <PageHeading  heading={"Couple Shoot"} />
                     <ProductCarousel products={productss6}/>
                 </div>
             </section>
