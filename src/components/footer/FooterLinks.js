@@ -20,7 +20,7 @@ const FooterLinks = () => {
           
           <h2>Let's Talk</h2>
           <a
-            href="https://wa.me/<916290716509>?text=I%20am%20interested%20in%20your%20photography%20services."
+            href="https://wa.me/<917044910991>?text=I%20am%20interested%20in%20your%20photography%20services."
             className="btn btn-dark"
             target="_blank"
             // rel="noopener noreferrer"
