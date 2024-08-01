@@ -34,9 +34,17 @@ const Category = ({ title, image }) => {
     <div className="category">
       <h3>{title}</h3>
       <img src={image} alt="img" />
-      <button className="--btn" onClick={() => navigate("/")}>
+     
+       <a
+            href="https://wa.me/<917044910991>?text=I%20am%20interested%20in%20your%20photography%20services."
+            className="--btn"
+            target="_blank"
+             rel="noopener noreferrer"
+          >
+          <button className="--btn" onClick={() => navigate("/")}>
         {"Book Now >>>"}
       </button>
+          </a>
     </div>
   );
 };
